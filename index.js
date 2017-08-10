@@ -1,5 +1,3 @@
 'use-strict';
 
-module.exports = function() {
-	console.log("Test");
-}
+module.exports = require('./lib/jnode');
