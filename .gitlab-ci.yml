@@ -22,3 +22,7 @@ test_view:
 test_model:
   script:
     - node ./specs/test_model.js
+
+test_logger:
+  script:
+    - node ./specs/test_logger.js
