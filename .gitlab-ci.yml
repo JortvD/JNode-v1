@@ -10,3 +10,15 @@ test_jnode:
 test_api:
   script:
     - node ./specs/test_api.js
+
+test_assets:
+  script:
+    - node ./specs/test_assets.js
+
+test_view:
+  script:
+    - node ./specs/test_view.js
+
+test_model:
+  script:
+    - node ./specs/test_model.js
