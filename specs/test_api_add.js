@@ -1,4 +1,4 @@
-var jnode = require("jnode");
+var jnode = require("../index")();
 jnode.root = "../specs/";
 
 var api = jnode.api();
