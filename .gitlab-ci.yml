@@ -1,6 +1,24 @@
 image: node:latest
 
-test1:
+before_script:
+  - npm install
+
+test_jnode_create:
   script:
-    - npm install
-    - node ./specs/test1.js
+    - node ./specs/test_jnode_create.js
+
+test_jnode_start:
+  script:
+    - node ./specs/test_jnode_start.js
+
+test_jnode_stop:
+  script:
+    - node ./specs/test_jnode_stop.js
+
+test_api_load:
+  script:
+    - node ./specs/test_api_load.js
+
+test_api_add:
+  script:
+    - node ./specs/test_api_add.js
