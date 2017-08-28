@@ -1,1 +1,0 @@
-var jnode = require("../index")();
