@@ -26,3 +26,7 @@ test_model:
 test_logger:
   script:
     - node ./specs/test_logger.js
+
+test_helper:
+  script:
+    - node ./specs/test_helper.js
