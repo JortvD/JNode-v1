@@ -3,4 +3,4 @@ image: node:latest
 test1:
   script:
     - npm install
-    - node ./specs/test.js
+    - node ./specs/test1.js
