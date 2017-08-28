@@ -7,8 +7,8 @@
 		"test": "echo 'Error: no test specified' && exit 1"
 	},
 	"repository": {
-    	"type": "git",
-    	"url": "git+https://github.com/JortHub/JNode.git"
+		"type": "git",
+		"url": "git+https://github.com/JortHub/JNode.git"
 	},
 	"author": "JortHub",
 	"bugs": {
@@ -16,6 +16,7 @@
 	},
 	"homepage": "https://github.com/JortHub/JNode#readme",
 	"dependencies": {
-	    "express": "^4.15.4"
+		"express": "^4.15.4",
+		"express-session": "^1.15.5"
 	}
 }
