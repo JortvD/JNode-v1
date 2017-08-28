@@ -7,10 +7,6 @@ test_jnode_create:
   script:
     - node ./specs/test_jnode_create.js
 
-test_jnode_start:
-  script:
-    - node ./specs/test_jnode_start.js
-
 test_jnode_stop:
   script:
     - node ./specs/test_jnode_stop.js
