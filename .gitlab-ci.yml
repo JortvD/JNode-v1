@@ -9,7 +9,7 @@ services:
 
 before_script:
   - npm install --silent
-  - sudo mkdir /data/db
+  - mkdir /data/db
 
 test_jnode:
   script:
