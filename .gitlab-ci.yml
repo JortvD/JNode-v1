@@ -1,10 +1,15 @@
 image: node:latest
 
+cache:
+  paths:
+    - node_modules/
+
+
 services:
   - mongo:latest
 
 before_script:
-  - npm install
+  - npm install --silent
 
 test_jnode:
   script:
@@ -40,5 +45,4 @@ test_validator:
 
 test_mongo:
   script:
-    - mongod --fork --logpath /var/log/mongod.log
     - node ./specs/test_mongo.js
