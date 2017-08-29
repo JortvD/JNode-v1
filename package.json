@@ -18,6 +18,7 @@
 	"dependencies": {
 		"compression": "^1.7.0",
 		"express": "^4.15.4",
-		"express-session": "^1.15.5"
+		"express-session": "^1.15.5",
+		"mongodb": "^2.2.31"
 	}
 }

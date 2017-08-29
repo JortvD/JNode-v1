@@ -1,5 +1,8 @@
 image: node:latest
 
+services:
+  - mongo:latest
+
 before_script:
   - npm install
 
@@ -34,3 +37,8 @@ test_helper:
 test_validator:
   script:
     - node ./specs/test_validator.js
+
+test_mongo:
+  script:
+    - mongod --fork --logpath /var/log/mongod.log
+    - node ./specs/test_mongo.js
