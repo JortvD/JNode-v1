@@ -9,7 +9,6 @@ services:
 
 before_script:
   - npm install --silent
-  - mkdir /data/db
 
 test_jnode:
   script:
@@ -46,3 +45,4 @@ test_validator:
 test_mongo:
   script:
     - node ./specs/test_mongo.js
+    - mongod
