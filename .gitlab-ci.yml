@@ -45,4 +45,4 @@ test_validator:
 test_mongo:
   script:
     - node ./specs/test_mongo.js
-    - mongod
+    - mongo
