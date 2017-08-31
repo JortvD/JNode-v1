@@ -3,4 +3,4 @@ jnode.root = "../specs/";
 
 // TEST //
 jnode.view("view", "view.html");
-jnode.view("view", "view.html", function() {});
+jnode.view("view", "view.html");
