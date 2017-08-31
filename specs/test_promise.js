@@ -1,4 +1,4 @@
-var promise = require("../lib/utils/promise.js")();
+var promise = require("../lib/utils/promise.js");
 
 function call(callback) {
 	callback("ERR", "TEST");
