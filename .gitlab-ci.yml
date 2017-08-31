@@ -49,3 +49,7 @@ test_mongo:
 test_promise:
   script:
     - node ./specs/test_promise.js
+
+test_hash:
+  script:
+    - node ./specs/test_hash.js
