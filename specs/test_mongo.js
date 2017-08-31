@@ -4,4 +4,4 @@ jnode.root = "../specs/";
 // TEST //
 var db = jnode.database();
 db.connect("mongo");
-db.stop();
+db.close();
