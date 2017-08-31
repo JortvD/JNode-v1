@@ -19,6 +19,7 @@ db.connect("mongo")
 					db.find({"test1": "A"})
 					.then(function(result) {
 						console.log(result);
+						db.close();
 					})
 					.catch(console.log);
 				})
