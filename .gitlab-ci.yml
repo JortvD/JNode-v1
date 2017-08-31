@@ -45,3 +45,7 @@ test_validator:
 test_mongo:
   script:
     - node ./specs/test_mongo.js
+
+test_promise:
+  script:
+    - node ./specs/test_promise.js
