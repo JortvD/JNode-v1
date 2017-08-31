@@ -3,5 +3,6 @@ jnode.root = "../specs/";
 
 // TEST //
 var db = jnode.database();
-db.connect("mongo");
-db.close();
+db.connect("mongo").then(function() {
+	db.close();
+});
