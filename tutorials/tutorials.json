@@ -1,9 +1,45 @@
 {
-	"tutorial1": {
-		"title": "Tutorial 1: First application"
-	},
-
 	"tutorial0": {
 		"title": "Tutorial 0: Installation"
+	},
+
+	"tutorial1": {
+		"title": "Tutorial 1: First Application"
+	},
+
+	"tutorial2": {
+		"title": "Tutorial 2: API Controllers"
+	},
+
+	"tutorial3": {
+		"title": "Tutorial 3: Loading Models"
+	},
+
+	"tutorial4": {
+		"title": "Tutorial 4: Promises"
+	},
+
+	"tutorial5": {
+		"title": "Tutorial 5: Creating a View"
+	},
+
+	"tutorial6": {
+		"title": "Tutorial 6: Routing Assets"
+	},
+
+	"tutorial7": {
+		"title": "Tutorial 7: Databases"
+	},
+
+	"tutorial8": {
+		"title": "Tutorial 8: Logging"
+	},
+
+	"tutorial9": {
+		"title": "Tutorial 9: Hash and Encryption"
+	},
+
+	"tutorial10": {
+		"title": "Tutorial 10: Validating string"
 	}
 }
