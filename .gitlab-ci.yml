@@ -10,6 +10,15 @@ services:
 before_script:
   - npm install --silent
 
+pages:
+  script:
+    - npm install -g jsdoc
+    - npm install minami
+    - jsdoc -c jsdoc.json
+  artifacts:
+    paths:
+      - public
+
 test_jnode:
   script:
     - node ./specs/test_jnode.js
