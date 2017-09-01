@@ -2,7 +2,7 @@ Creating a new application is really easy. To do so, you have to follow the next
 <br>
 
 ### Step 1: Create the main file
-First you need to create new file. You will use this file as the starting point for all the interaction with JNode, so you need to put it in the same folder were you installed JNode. For now, we will call the file ```main.js```.
+First you need to create new a file. You will use this file as the starting point for all the interaction with JNode, so you need to put it in the same folder were you installed JNode. For now, we will call the file ```main.js```.
 <br><br>
 
 ### Step 2: Require JNode

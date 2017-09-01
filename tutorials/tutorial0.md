@@ -31,4 +31,4 @@ npm install https://gitlab.com/JortvD/JNode.git --save-exact
 This command will install JNode using NPM and directly save it to your package.json file.
 <br>
 
-When you've followed this steps you are ready to move on to the [next tutorial](/tutorial-tutorial1.md).
+When you've followed this steps you are ready to move on to the [next tutorial](tutorial-tutorial1.html).

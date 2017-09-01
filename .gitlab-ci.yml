@@ -14,7 +14,7 @@ pages:
   script:
     - npm install -g jsdoc
     - npm install minami
-    - jsdoc -c jsdoc.json -u tutorials
+    - jsdoc -c jsdoc.json -u tutorials --readme readme.md
   artifacts:
     paths:
       - public
