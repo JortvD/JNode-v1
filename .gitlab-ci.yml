@@ -62,3 +62,7 @@ test_promise:
 test_hash:
   script:
     - node ./specs/test_hash.js
+
+test_policy:
+  script:
+    - node ./specs/test_policy.js
