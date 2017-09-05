@@ -63,6 +63,6 @@ test_hash:
   script:
     - node ./specs/test_hash.js
 
-test_policy:
+test_404:
   script:
-    - node ./specs/test_policy.js
+    - node ./specs/test_404.js
