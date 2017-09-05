@@ -66,3 +66,7 @@ test_hash:
 test_404:
   script:
     - node ./specs/test_404.js
+
+test_redirect:
+  script:
+    - node ./specs/test_redirect.js
