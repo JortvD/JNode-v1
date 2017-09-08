@@ -70,3 +70,7 @@ test_404:
 test_redirect:
   script:
     - node ./specs/test_redirect.js
+
+test_scheduler:
+  script:
+    - node ./specs/test_scheduler.js
