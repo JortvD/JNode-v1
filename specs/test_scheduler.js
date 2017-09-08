@@ -4,7 +4,7 @@ jnode.root = "../specs/";
 // TEST //
 var scheduler = jnode.scheduler();
 var date = {
-	month: 2,
+	month: 11,
 	day: 3,
 	hour: 2,
 	minute: 1
