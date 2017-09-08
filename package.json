@@ -18,12 +18,14 @@
 	"dependencies": {
 		"compression": "^1.7.0",
 		"consolidate": "^0.14.5",
+		"cookie-parser": "^1.4.3",
 		"csrf": "^3.0.6",
 		"ddos": "^0.1.24",
 		"express": "^4.15.4",
 		"express-session": "^1.15.5",
 		"helmet": "^3.8.1",
 		"mongodb": "^2.2.31",
-		"node-schedule": "^1.2.4"
+		"node-schedule": "^1.2.4",
+		"socket.io": "^2.0.3"
 	}
 }
