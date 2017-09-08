@@ -17,6 +17,7 @@
 	"homepage": "https://github.com/JortHub/JNode#readme",
 	"dependencies": {
 		"compression": "^1.7.0",
+		"consolidate": "^0.14.5",
 		"csrf": "^3.0.6",
 		"ddos": "^0.1.24",
 		"express": "^4.15.4",
