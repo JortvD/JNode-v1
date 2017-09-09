@@ -1,45 +1,97 @@
 {
 	"tutorial0": {
-		"title": "Tutorial 0: Installation"
+		"title": "Tutorial 00: Installation"
 	},
 
 	"tutorial1": {
-		"title": "Tutorial 1: First Application"
+		"title": "Tutorial 01: Application"
 	},
 
 	"tutorial2": {
-		"title": "Tutorial 2: API Controllers"
+		"title": "Tutorial 02: API Controllers"
 	},
 
 	"tutorial3": {
-		"title": "Tutorial 3: Loading Models"
+		"title": "Tutorial 03: Models"
 	},
 
 	"tutorial4": {
-		"title": "Tutorial 4: Promises"
+		"title": "Tutorial 04: Promises"
 	},
 
 	"tutorial5": {
-		"title": "Tutorial 5: Creating a View"
+		"title": "Tutorial 05: Views"
 	},
 
 	"tutorial6": {
-		"title": "Tutorial 6: Routing Assets"
+		"title": "Tutorial 06: Assets"
 	},
 
 	"tutorial7": {
-		"title": "Tutorial 7: Databases"
+		"title": "Tutorial 07: Databases"
 	},
 
 	"tutorial8": {
-		"title": "Tutorial 8: Logging"
+		"title": "Tutorial 08: Logging"
 	},
 
 	"tutorial9": {
-		"title": "Tutorial 9: Hash and Encryption"
+		"title": "Tutorial 09: Hash and Encryption"
 	},
 
 	"tutorial10": {
-		"title": "Tutorial 10: Validating string"
+		"title": "Tutorial 10: Validating"
+	},
+
+	"tutorial11": {
+		"title": "Tutorial 11: Redirecting"
+	},
+
+	"tutorial12": {
+		"title": "Tutorial 12: Policies"
+	},
+
+	"tutorial13": {
+		"title": "Tutorial 13: Websockets"
+	},
+
+	"tutorial14": {
+		"title": "Tutorial 14: Sessions"
+	},
+
+	"tutorial15": {
+		"title": "Tutorial 15: Cookies"
+	},
+
+	"tutorial16": {
+		"title": "Tutorial 16: Compression"
+	},
+
+	"tutorial17": {
+		"title": "Tutorial 17: Garbage Collection"
+	},
+
+	"tutorial18": {
+		"title": "Tutorial 18: Security"
+	},
+
+	"tutorial19": {
+		"title": "Tutorial 19: Favicon"
+	},
+
+	"tutorial20": {
+		"title": "Tutorial 20: Engines"
+	},
+
+	"tutorial21": {
+		"title": "Tutorial 21: Libraries"
+	},
+
+	"tutorial22": {
+		"title": "Tutorial 22: Error Catching"
+	},
+
+	"tutorial23": {
+		"title": "Tutorial 23: 404 Controller"
 	}
 }
