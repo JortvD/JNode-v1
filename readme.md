@@ -18,4 +18,4 @@ npm install https://gitlab.com/JortvD/JNode.git --save-exact
 <br>
 
 ## People
-JNode was created by JortvD.
+JNode was created by JortvD (and Chronaium).
