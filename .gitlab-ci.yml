@@ -4,6 +4,8 @@ before_script:
   - npm install --silent
 
 pages:
+  only:
+    - web
   script:
     - npm install -g jsdoc
     - npm install minami
