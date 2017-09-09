@@ -13,7 +13,7 @@ Welcome to the JNode repository. JNode is a simple NodeJS framework created to m
 ## Installation
 You can install JNode with the following command (Guessing you already have NodeJS and Git installed):
 ```
-npm install https://gitlab.com/JortvD/JNode.git --save-exact
+npm install https://gitlab.com/llr-esports/JNode.git --save-exact
 ```
 <br>
 
