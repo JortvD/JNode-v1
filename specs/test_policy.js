@@ -4,4 +4,7 @@ jnode.root = "../specs/";
 // TEST //
 var api = jnode.api();
 var policy = api.load("policy", "policy");
-api.add("test", policy.test);
+var controller = api.load("controller");
+api.policy("test_policy", policy.test);
+api.add("test", "test_policy")
+.then(controller.test);
