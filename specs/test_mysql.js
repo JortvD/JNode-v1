@@ -3,6 +3,7 @@ jnode.root = "../specs/";
 
 // TEST //
 var db = jnode.database();
+db.driver("mysql");
 db.connect()
 .then(function() {
 	db.database_create("test")
@@ -17,7 +18,7 @@ db.connect()
 					.then(function() {
 						db.insert({"test1": "A", "test2": "Wonderful", "test3": "Test"})
 						.then(function() {
-							db.modify({"test1": "A"}, {"test3": "Document"})
+							db.modify({"test1": "A"}, {"test3": "Row"})
 							.then(function() {
 								db.find({"test1": "A"})
 								.then(function(result) {

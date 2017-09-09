@@ -22,6 +22,7 @@ call :run specs\test_locales.js
 call :run specs\test_logger.js
 call :run specs\test_model.js
 call :run specs\test_mongo.js
+call :run specs\test_mysql.js
 call :run specs\test_policy.js
 call :run specs\test_promise.js
 call :run specs\test_redirect.js
