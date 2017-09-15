@@ -15,19 +15,27 @@ start mongod
 call :run specs\test_404.js
 call :run specs\test_api.js
 call :run specs\test_assets.js
+call :run specs\test_engine.js
+call :run specs\test_error.js
+call :run specs\test_favicon.js
+call :run specs\test_file.js
 call :run specs\test_hash.js
 call :run specs\test_helper.js
 call :run specs\test_jnode.js
+call :run specs\test_library.js
 call :run specs\test_locales.js
 call :run specs\test_logger.js
 call :run specs\test_model.js
 call :run specs\test_mongo.js
 call :run specs\test_mysql.js
+call :run specs\test_not_found.js
 call :run specs\test_plugin.js
 call :run specs\test_policy.js
 call :run specs\test_promise.js
 call :run specs\test_redirect.js
 call :run specs\test_scheduler.js
+call :run specs\test_socket.js
+call :run specs\test_uuid.js
 call :run specs\test_validator.js
 call :run specs\test_view.js
 
