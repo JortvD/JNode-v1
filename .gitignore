@@ -1,3 +1,5 @@
 /node_modules/
 /public/
+*.log
 cloc.exe
+events.txt
