@@ -1,5 +1,5 @@
 var jnode = require("../index")();
-jnode.root = "../specs/";
+jnode.root += "specs/";
 
 // TEST //
 var validator = jnode.helper("validator");
