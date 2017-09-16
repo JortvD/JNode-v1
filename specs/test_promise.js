@@ -2,13 +2,13 @@ var promise = require("../lib/utils/promise.js");
 
 function call(callback) {
 	setTimeout(function() {
-		callback("ERR", "TEST", "HEY");
+		callback("ERR", "TEST");
 	}, 1);
 }
 
 function test() {
 	return new promise(function(succes, failure) {
-		call(function(err, val, hey) {
+		call(function(err, val) {
 			failure(err);
 			succes(val);
 		});
