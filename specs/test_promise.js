@@ -1,20 +1,27 @@
 var promise = require("../lib/utils/promise.js");
 
 function call(callback) {
-	callback("ERR", "TEST");
+	setTimeout(function() {
+		callback("ERR", "TEST");
+	}, 1);
 }
 
 function test() {
-	return new promise(function(then, c) {
+	return new promise(function(succes, failure, event) {
 		call(function(err, val) {
-			then(err);
-			c(val);
+			event("error", err);
+			event("then", val);
 		});
 	});
 }
 
-test().then(function(val) {
+test()
+.then(function(ev, val) {
 	console.log(val);
-}).catch(function(err) {
+})
+.then(function(ev, val) {
+	console.log(val);
+})
+.catch(function(ev, err) {
 	console.log(err);
 });
