@@ -46,7 +46,7 @@ var Request = function(jnode) {
 					}
 				}
 
-				xhr.open(jnode.root + jnode.api_url + "/" + jnode.path);
+				xhr.open(self.method, jnode.root + jnode.api_url + "/" + jnode.path);
 
 				for(var key in headers) {
 					if(params.hasOwnProperty(key)) {

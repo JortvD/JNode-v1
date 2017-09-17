@@ -1,5 +1,6 @@
 var jnode = require("../index")();
 jnode.root += "specs/";
+jnode.init();
 
 // TEST //
 console.log(jnode.helper("hash").hash("Hey!"));

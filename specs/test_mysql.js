@@ -1,5 +1,7 @@
 var jnode = require("../index")();
 jnode.root += "specs/";
+jnode.init();
+
 // TEST //
 var db = jnode.database();
 db.driver("mysql");
